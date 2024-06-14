@@ -40,7 +40,7 @@ body {
 
   position: absolute;
   top: 22.2%;
-  left: 26.8%;
+  left: 26%;
   transform: translate(-50% -50%);
   width: 400px;
   height: 500px;
@@ -160,7 +160,7 @@ img {
   background-color: #2f2841;
   border-radius: 15px;
   padding: 30px;
-  margin-left: 880px;
+  margin-left: 867px;
   height: 480px;
   width: 400px;
   margin-top: 215px;
