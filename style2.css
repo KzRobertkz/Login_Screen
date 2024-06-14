@@ -8,11 +8,13 @@ body {
 h1 {
   margin-bottom: 0;
   margin-top: 15px;
+  font-family: "inter",sans-serif;
 }
 
 h2 {
   color: rgb(0, 180, 0);
   font-size: 23px;
+  font-family: "inter",sans-serif;
 }
 
 .main-login {
@@ -112,6 +114,7 @@ h2 {
   font-size: large;
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: black;
+  font-family: "inter",sans-serif;
 }
 
 #btn-login:hover {
@@ -122,9 +125,9 @@ h2 {
 
 #text-notAccount {
   color: rgb(0, 185, 0);
-  font-size: medium;
+  font-size: 15px;
   display: inline;
-  
+  font-family: "inter",sans-serif;
 }
 
 #btn-createAccount {
@@ -132,8 +135,9 @@ h2 {
   color: black;
   border: none;
   display: inline;
-  font-size: medium;
+  font-size: small;
   text-decoration: none;
+  font-family: "inter",sans-serif;
 }
 
 #btn-createAccount:hover {
