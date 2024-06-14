@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 360px;
+  min-height: 700px;
+}
+
+.main-login {
+  height: 100vh;
+  background-color: #201b2c;
+  
+}
+
+
+/*create account*/
+
+#texto-h1 {
+  margin-top: 0;
+}
+
+.card-newAccount {
+  color: rgb(0, 216, 0);
+  width: 500px; 
+  margin-right: 200px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+
+.left-login {
+  background-color: #2f2841;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  position: absolute;
+  top: 22.2%;
+  left: 26.8%;
+  transform: translate(-50% -50%);
+  width: 400px;
+  height: 500px;
+  
+  font-size: x-large;
+
+  box-shadow: 10px  #00000056;
+  display: inline-block;
+}
+
+.text-fild-newAccount {
+ 
+  display: grid;
+  font-size: x-large;
+  text-align: left;
+  margin-left: 8px;
+  padding-right: 50px;
+  width: 300px; 
+}
+
+.text-fild-newAccount > input {
+  border: none;
+  border-radius: 5px;
+  background-color: #514869;
+  padding: 13px;
+  color: #f0ffffde;
+  font-size: 12pt;
+  outline: none;
+}
+
+.text-fild-newAccount >input:hover {
+  box-shadow: 3px 6px 8px 2px #00000056;
+}
+
+.text-fild-newAccount > label {
+  color: #f0ffffde;
+}
+
+.text-fild-newAccount2 {
+  display: grid;
+  font-size: x-large;
+  text-align: left;
+  gap: 3px;
+  margin-left: 8px;
+  padding-right: 50px;
+  width: 300px;
+}
+
+.text-fild-newAccount2 > input {
+  border: none;
+  border-radius: 5px;
+  background-color: #514869;
+  padding: 13px;
+  color: #f0ffffde;
+  font-size: 12pt;
+  outline: none;
+}
+
+.text-fild-newAccount2 >input:hover {
+  box-shadow: 3px 6px 8px 2px #00000056;
+}
+
+.text-fild-newAccount2 > label {
+  color: #f0ffffde;
+}
+
+#btn-newAccount {
+  background-color: rgb(0, 216, 0);
+  margin-top: 40px;
+  margin-left: 6px;
+  margin-right: auto;
+  width: 305px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: large;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+
+#btn-newAccount:hover {
+  background-color: rgb(0, 238, 0);
+  border: none;
+  cursor: pointer;
+}
+
+
+img {
+  background-color: #2f2841;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 880px;
+  height: 480px;
+  width: 400px;
+  margin-top: 215px;
+}
+
+

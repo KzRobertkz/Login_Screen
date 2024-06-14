@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 360px;
+  min-height: 700px;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+h2 {
+  color: rgb(0, 180, 0);
+  font-size: 23px;
+}
+
+.main-login {
+  height: 100vh;
+  background-color: #201b2c;
+  
+}
+
+.card-login {
+  color: rgb(0, 216, 0);
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.right-login {
+  background-color: #2f2841;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+
+  font-size: xx-large;
+}
+
+.text-fild {
+  display: grid;
+  font-size: x-large;
+  text-align: left;
+  gap: 3px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text-fild > input {
+  border: none;
+  border-radius: 5px;
+  background-color: #514869;
+  padding: 13px;
+  color: #f0ffffde;
+  font-size: 12pt;
+  outline: none;
+}
+
+.text-fild >input:hover {
+  box-shadow: 3px 6px 8px 2px #00000056;
+}
+
+.text-fild > label {
+  color: #f0ffffde;
+}
+.text-fild2 {
+  display: grid;
+  font-size: x-large;
+  text-align: left;
+  gap: 3px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+}
+
+.text-fild2 > input {
+  border: none;
+  border-radius: 5px;
+  background-color: #514869;
+  padding: 13px;
+  color: #f0ffffde;
+  font-size: 12pt;
+  outline: none;
+}
+
+.text-fild2 >input:hover {
+  box-shadow: 3px 6px 8px 2px #00000056;
+}
+
+.text-fild2 > label {
+  color: #f0ffffde;
+}
+
+#btn-login {
+  background-color: rgb(0, 216, 0);
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 305px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: large;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+
+#btn-login:hover {
+  background-color: rgb(0, 238, 0);
+  border: none;
+  cursor: pointer;
+}
+
+#text-notAccount {
+  color: rgb(0, 185, 0);
+  font-size: medium;
+  display: inline;
+  
+}
+
+#btn-createAccount {
+  background-color: #2f2841;
+  color: black;
+  border: none;
+  display: inline;
+  font-size: medium;
+  text-decoration: none;
+}
+
+#btn-createAccount:hover {
+  color: rgb(0, 238, 0);
+  border: none;
+  cursor: pointer;
+  text-decoration: underline rgb(0, 238, 0);
+}
+
+img {
+   background-color: #2f2841;
+  
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 490px;
+  height: 480px;
+  width: 400px;
+  margin-top: 215px;
+}
+
