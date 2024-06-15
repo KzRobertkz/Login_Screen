@@ -65,6 +65,7 @@ h2 {
   color: #f0ffffde;
   font-size: 12pt;
   outline: none;
+  transition: box-shadow 0.29s;
 }
 
 .text-fild >input:hover {
@@ -92,6 +93,7 @@ h2 {
   color: #f0ffffde;
   font-size: 12pt;
   outline: none;
+  transition: box-shadow 0.29s;
 }
 
 .text-fild2 >input:hover {

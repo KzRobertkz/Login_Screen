@@ -70,6 +70,7 @@ body {
   color: #f0ffffde;
   font-size: 12pt;
   outline: none;
+  transition: box-shadow 0.29s;
 }
 
 .text-fild-newAccount >input:hover {
@@ -98,6 +99,7 @@ body {
   color: #f0ffffde;
   font-size: 12pt;
   outline: none;
+  transition: box-shadow 0.29s;
 }
 
 .text-fild-newAccount2 >input:hover {
